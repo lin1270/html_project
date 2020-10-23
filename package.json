@@ -1,38 +1,15 @@
 {
-  "name": "html_project",
+  "name": "x",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --content-base /src --open --inline --hot --compress --config build/index.js",
-    "build": "webpack --progress --hide-modules --config build/index.js"
+    "dev": "browser-sync start --server --files \"*\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "html-webpack-plugin": "^4.5.0",
-    "html-loader": "^1.3.1",
-    "copy-webpack-plugin": "^4.3.1",
-    "clean-webpack-plugin": "^0.1.17",
-    "babel-loader": "^7.1.2",
-    "css-loader": "^4.3.0",
-    "style-loader": "^1.2.1",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-plugin-transform-decorators-legacy": "^1.3.5",
-    "babel-macros": "2.0.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-core": "^6.26.3",
-    "isomorphic-style-loader": "^5.1.0",
-    "sass-loader": "^10.0.2",
-    "sass": "^1.26.11",
-    "webpack-dev-server": "^3.11.0"
+    "browser-sync": "^2.26.13"
   }
 }
